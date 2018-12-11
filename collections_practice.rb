@@ -54,10 +54,22 @@ end
 a_array
 end
 
-def sum_array(array)
-  array.inject(0){|sum,x| sum + x }
-  end
 
+
+#def sum_array(array)
+    #i = 0
+    #sum = 0
+    #loop do
+      #sum += array[i]
+      #i = i + 1
+      #break if i >= array.length
+    #end
+    #sum
+  #end
+  def sum_array(array)
+    array.inject(0){|sum,x| sum + x }
+    end
+    
   def add_s(array)
  new_array = []
 
